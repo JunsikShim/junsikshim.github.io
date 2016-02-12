@@ -28,6 +28,8 @@
  */
 
 
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
 /*
  * Global resets
  *
@@ -41,14 +43,15 @@ body {
 }
 
 html {
-  font-family: "PT Serif", Georgia, "Times New Roman", serif;
+  font-family: Verdana, 'Nanum Gothic', "돋움", Georgia, "Times New Roman", serif;
+  letter-spacing: -.02rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: Verdana, 'Nanum Gothic', "PT Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: #313131;
-  letter-spacing: -.025rem;
+  letter-spacing: -.05rem;
 }
 
 
@@ -74,6 +77,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .container {
   max-width: 28rem;
+  font-size: 12pt;
+  line-height: 160%;
 }
 @media (min-width: 38em) {
   .container {
@@ -310,6 +315,8 @@ a.sidebar-nav-item:focus {
 .page,
 .post {
   margin-bottom: 4em;
+  padding-bottom: 2em;
+  border-bottom: 1px dotted #9a9a9a;
 }
 
 /* Blog post or page title */

@@ -4,27 +4,21 @@ title: About
 ---
 
 <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+  “Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.” ― Antoine de Saint-Exupéry
 </p>
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+<p style="float: left"><img src="https://avatars1.githubusercontent.com/u/5582609?v=3&s=460" width="150" /></p>
+<p style="float: left; margin-left: 20px;">
+    <span style="display: block; font-weight: bold; font-size: 1.8em; margin-top: 27px">Junsik Shim</span>
+    <span style="display: block; color: #8e8e8e">Software Engineer</span>
+    <span style="font-size: 0.9em; display: block; margin-top: 20px">Contact me at <a href="mailto:junsik.shim@gmail.com">junsik.shim@gmail.com</a></span>
+</p>
 
-There are currently two themes built on Poole:
+<div style="clear: both"></div>
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+I am a professional full-stack web developer with 9+ years of experiences interested in developing fun and useful web applications.
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+Experienced in developing high-performance cross-browser JavaScript and CSS for front-end SPAs in both mobile/desktop environment.
 
-## Setup
+Skilled in Java/Scala development for back-end service with REST API interfaces.
 
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
