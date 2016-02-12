@@ -1,7 +1,7 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
+#permalink:           pretty
 
 # Setup
 title:               Junsik's Blog
@@ -20,4 +20,9 @@ author:
 # Custom vars
 version:             1.0.0
 
-gems:                [jekyll-paginate]
+gems:                [jekyll-paginate, kramdown]
+
+#permalink:           /:year/:month/:day/:title/
+
+markdown:            kramdown
+#highlighter:         pygments

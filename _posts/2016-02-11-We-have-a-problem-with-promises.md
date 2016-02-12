@@ -1,3 +1,8 @@
+---
+layout: post
+title: We have a problem with promises
+---
+
 > 이 글은 원작자인 Nolan Lawson의 허락을 받고 [We have a problem with promises](http://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html)를 직접 번역한 글입니다.
 >
 > 프로미스는 이미 수년 전 부터 async 프로그래밍의 핵심으로 자리잡았지만 상당히 많은 수의 개발자들이 제대로 활용을 못하고 있습니다.
