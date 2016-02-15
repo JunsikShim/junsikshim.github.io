@@ -16,9 +16,10 @@ title: About
 
 <div style="clear: both"></div>
 
-I am a professional full-stack web developer with 9+ years of experiences interested in developing fun and useful web applications.
+I am a professional full-stack web developer interested in developing fun and useful web applications.
 
 Experienced in developing high-performance cross-browser JavaScript and CSS for front-end SPAs in both mobile/desktop environment.
 
 Skilled in Java/Scala development for back-end service with REST API interfaces.
 
+Willing to participate in open-source projects!

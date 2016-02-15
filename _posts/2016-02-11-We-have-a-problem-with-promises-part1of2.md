@@ -1,6 +1,6 @@
 ---
 layout: post
-title: We have a problem with promises
+title: We have a problem with promises (Part 1 of 2)
 ---
 
 > 이 글은 원작자인 Nolan Lawson의 허락을 받고 [We have a problem with promises](http://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html)를 직접 번역한 글입니다.
@@ -210,7 +210,7 @@ somePromise().then(function () {
 여기서 무엇을 할 수 있을까요? 3가지가 있습니다.
 1. 다른 프로미스를 리턴하기
 2. sync 값(또는 undefined)을 리턴하기
-3. sync 에러를 던지기
+3. sync 에러를 발생시키기
 
 이게 전부입니다. 이 것을 이해하고나면 프로미스를 이해한 것입니다. 각각의 포인트를 차근차근 봐봅시다.
 
@@ -249,14 +249,14 @@ getUserByName('nolan').then(function (user) {
 
 따라서, 전 then() 함수 안에서 무조건 return 또는 throw를 하도록 습관을 들였습니다. 여러분들도 똑같이 하기를 권장합니다.
 
-##### 3. sync 에러를 던지기
+##### 3. sync 에러를 발생시키기
 
-throw와 관련해서, 이 곳이 프로미스를 더욱 더 멋있어지는 부분입니다. 사용자가 로그아웃 되었을 때 sync 에러를 던지기를 원한다고 가정해봅시다. 상당히 간단하게 구현할 수 있습니다.
+throw와 관련해서, 이 곳이 프로미스를 더욱 더 멋있어지는 부분입니다. 사용자가 로그아웃 되었을 때 sync 에러를 발생시키기 원한다고 가정해봅시다. 상당히 간단하게 구현할 수 있습니다.
 
 {% highlight js %}
 getUserByName('nolan').then(function (user) {
   if (user.isLoggedOut()) {
-    throw new Error('user logged out!'); // sync 에러를 던지기!
+    throw new Error('user logged out!'); // sync 에러를 발생!
   }
   if (inMemoryCache[user.id]) {
     return inMemoryCache[user.id];       // sync 값을 리턴!
