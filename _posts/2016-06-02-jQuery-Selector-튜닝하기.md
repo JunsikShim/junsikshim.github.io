@@ -3,8 +3,6 @@ layout: post
 title: jQuery Selector 튜닝하기
 ---
 
-# jQuery Selector 튜닝하기
-
 아마 웹 개발을 하면서 jQuery를 모르거나 안 써본 사람은 없을 겁니다. 웹 개발자들의 오랜 숙적이였던 Cross-browser 문제나 지저분한 DOM-manipulation 문제 등을 한방에 해결해주었으니 말이죠. 거기에 Ajax 지원과 각종 유틸 함수까지 포함되면서 jQuery는 웹 개발에 있어 대체 불가능한 라이브러리로 자리매김 하였습니다.
 
 하지만 아무리 좋은 도구라도 제대로 써야 좋듯이, 고민 없이 쓴 jQuery 코드는 종종 속도저하의 주범이 됩니다. jQuery를 악용(?)하는 법은 여러가지가 있지만, 이 글에선 Selector에 관련해서 이야기하고자 합니다.
