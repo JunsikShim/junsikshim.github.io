@@ -1,3 +1,8 @@
+---
+layout: post
+title: jQuery Selector 튜닝하기
+---
+
 # jQuery Selector 튜닝하기
 
 아마 웹 개발을 하면서 jQuery를 모르거나 안 써본 사람은 없을 겁니다. 웹 개발자들의 오랜 숙적이였던 Cross-browser 문제나 지저분한 DOM-manipulation 문제 등을 한방에 해결해주었으니 말이죠. 거기에 Ajax 지원과 각종 유틸 함수까지 포함되면서 jQuery는 웹 개발에 있어 대체 불가능한 라이브러리로 자리매김 하였습니다.
